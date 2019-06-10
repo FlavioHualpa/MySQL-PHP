@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+table.redTable {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 70%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.redTable tbody td {
+  font-size: 16px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F5C8BF;
+}
+table.redTable thead {
+  background: #A40808;
+}
+table.redTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #A40808;
+}
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+table.redTable tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #A40808;
+}
+table.redTable tfoot td {
+  font-size: 13px;
+}
+table.redTable tfoot .links {
+  text-align: right;
+}
+table.redTable tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #A40808;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Roboto;
+}
+
+.contenedor {
+   padding: 40px;
+}
+
+.icono-advertencia {
+   width: 120px;
+   margin: 30px 30px 0 0;
+   vertical-align: top;
+}
+
+.texto-advertencia {
+   font-size: 24px;
+   margin-top: 70px;
+   display: inline-block;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.bolilla {
+   font-size: 24px;
+   font-weight: bold;
+   margin-right: 15px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #D40808;
+}
+
+.contenedor form {
+  margin-top: 40px;
+}
+
+.campo-form {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.campo-form label {
+  width: 100%;
+}
+
+.campo-form input,
+.campo-form select,
+.campo-form button {
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.campo-form input,
+.campo-form .genero {
+  width: 100%;
+}
+
+.campo-form input[type="radio"] {
+  width: auto;
+  margin-left: 15px;
+}
+
+.campo-form .radio-label {
+  width: auto;
+  margin-left: 3px;
+}
+
+.campo-form select {
+  margin-right: 15px;
+  padding: 6px;
+}
+
+.campo-form i {
+  margin-right: 6px;
+}
+
+.campo-form p {
+  margin-top: 3px;
+  color: #D40808;
+}
+
